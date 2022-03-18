@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="Pokedex.css">
+</head>
+<body bgcolor="#FF0000">
+<!--Title-->
+<p class="Title">Pokédex</p>
+<p class="Title2">Pokédex</p>
+<!--Background-->
+    <div class="BackG1">
+        <img src="../Image/Infoback.PNG" alt="Fondo1" width="720" height="600">
+    </div>
+    <div class="BackG2">
+        <img src="../Image/Infofron.PNG" alt="Capa1" width="720" height="600">
+    </div>
+    <div class="BackG3">
+        <img src="../Image/Searchback.PNG" alt="Fondo2" width="720" height="600">
+    </div>
+    <div class="BackG4">
+        <img src="../Image/Searchfron.PNG" alt="Capa2" width="720" height="600">
+    </div>
+    <div class="Pokeball">
+        <img class="Pball" id="Pball" src="../Image/Pokeball.png" alt="Pokeball" width="150" height="150">
+    </div>
+<!--Termina Background-->
+
+<!--Buscador-->
+<div class="IngresePoke">
+    <input class="PokeName" type="text" name="PokeName" id="Pokename" placeholder="Pikachu">
+</div>
+
+<div class="Search">
+    <input class="Searching" type="button" name="Search" id="Search" value="Buscar" onclick="fetchPokemon()">
+</div>
+<!--Termina Buscador-->
+
+<!--Info-->
+<div class="NumbPoke">
+    <input class="NPoke" type="text" name="NumberPo" id="NumberPo">
+</div>
+
+
+<!--Termina Info-->
+</body>
+<footer>
+    <script src="./Pokedex.js"></script>
+</footer>
+</html>

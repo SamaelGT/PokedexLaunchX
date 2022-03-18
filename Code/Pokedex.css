@@ -1,0 +1,113 @@
+/*Text Style*/
+@font-face {
+    font-family: PokeSolid;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../Font/PokeSolid.ttf);
+}
+@font-face{
+    font-family: PokeHollow;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../Font/PokeHollow.ttf);
+}
+@font-face {
+    font-family: PText;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../Font/PText.ttf)
+}
+/*Termina Text Style*/
+
+/*Background*/
+.BackG1{
+    position: absolute;
+    left: 0px;
+    top: 100px;
+}
+.BackG2{
+    position: absolute;
+    left: 0px;
+    top: 100px;
+}
+.BackG3{
+    position: absolute;
+    left: 720px;
+    top: 100px;
+}
+.BackG4{
+    position: absolute;
+    left: 720px;
+    top: 100px;
+}
+.Pokeball{
+    position: absolute;
+    z-index: 3;
+    top: 190px;
+    left: 90px;
+}
+/*TerminaBackground*/
+
+/*Text Style*/
+.Title{
+    position: absolute;
+    top: -30px;
+    left: 600px;
+    font-family: PokeSolid;
+    font-size: 50px;
+    color: #ffcb05;
+}
+.Title2{
+    position: absolute;
+    top: -30px;
+    left: 600px;
+    font-family: PokeHollow;
+    font-size: 50px;
+    font-weight: bold;
+    color: #2a75bb;
+}
+/*Termina Text Style*/
+
+/*Search*/
+.PokeName{
+    font-family: PText;
+    width: 200px;
+    height: 40px;
+    font-size: 30px;
+}
+.IngresePoke{
+    position: absolute;
+    top: 190px;
+    left: 950px;
+    z-index: 3;
+}
+.Search{
+    position: absolute;
+    top: 190px;
+    left: 1150px;
+}
+.Searching{
+    font-family: PText;
+    font-size: 20px;
+    width: 90px;
+    height: 46px;
+}
+.Buscar{
+    top: 220px;
+    left: 300px;
+    font-family: PText;
+}
+
+/*Termina Search*/
+.NumbPoke{
+    position: absolute;
+    top: 140px;
+    left: 380px;
+}
+
+.NPoke{
+    font-family: PText;
+    width: 40px;
+    height: 40px;
+    font-size: large;
+}
