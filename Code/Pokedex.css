@@ -99,15 +99,113 @@
 }
 
 /*Termina Search*/
-.NumbPoke{
+.NumPoke{
     position: absolute;
-    top: 140px;
-    left: 380px;
+    font-family: PText;
+    top: 16vh;
+    left: 50vh;
 }
 
-.NPoke{
+.pokeType1{
+    position: absolute;
     font-family: PText;
-    width: 40px;
-    height: 40px;
-    font-size: large;
+    top: 23vh;
+    left: 58vh;
+}
+
+.pokeAltu{
+    position: absolute;
+    font-family: PText;
+    top: 39vh;
+    left: 55vh;
+}
+
+.pokePeso{
+    position: absolute;
+    font-family: PText;
+    top: 44vh;
+    left: 55vh;
+}
+
+.pokeHability{
+    position: absolute;
+    font-family: PText;
+    top: 32vh;
+    left: 100vh;
+    width: 600px;
+}
+
+.pokeMovimientos{
+    position: absolute;
+    font-family: PText;
+    font-size: 27px;
+    top: 40vh;
+    left: 100vh;
+    height: 250px;
+    width: 600px;
+    background-color: transparent;
+    border: 0;
+}
+
+.pokeHealt{
+    position: absolute;
+    font-family: PText;
+    top: 58vh;
+    left: 15vh;
+    color: white;
+}
+
+.pokeAtack{
+    position: absolute;
+    font-family: PText;
+    top: 63vh;
+    left: 15vh;
+    color: white;
+}
+
+.pokeDef{
+    position: absolute;
+    font-family: PText;
+    top: 68vh;
+    left: 15vh;
+    color: white;
+}
+
+.pokeSatk{
+    position: absolute;
+    font-family: PText;
+    top: 58vh;
+    left: 43vh;
+    color: white;
+}
+
+.pokeSdef{
+    position: absolute;
+    font-family: PText;
+    top: 63vh;
+    left: 43vh;
+    color: white;
+}
+
+.pokeSpeed{
+    position: absolute;
+    font-family: PText;
+    top: 68vh;
+    left: 43vh;
+    color: white;
+}
+
+.pokeBack{
+    position: absolute;
+    top: 32vh;
+    left: 37vh;
+
+}
+
+.pokeNN{
+    position: absolute;
+    font-family: PText;
+    font-size: 37px;
+    top: 14vh;
+    left: 65vh;
 }
